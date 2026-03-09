@@ -259,3 +259,32 @@ color:#003366;
 text-align:center;
 margin-bottom:30px;
 }
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:white;
+padding:15px 40px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+color:#003366;
+}
+
+.menu a{
+margin-left:20px;
+text-decoration:none;
+color:#003366;
+font-weight:500;
+transition:0.3s;
+}
+
+.menu a:hover{
+color:#0088cc;
+border-bottom:2px solid #0088cc;
+padding-bottom:3px;
+}
