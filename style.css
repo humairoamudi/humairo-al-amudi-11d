@@ -169,3 +169,44 @@ form button :hover {
     border-radius: 8px;
   }
 
+.container{
+max-width:900px;
+margin:auto;
+padding:40px;
+}
+
+h1{
+text-align:center;
+color:#003366;
+margin-bottom:20px;
+}
+
+.intro{
+text-align:center;
+margin-bottom:40px;
+}
+
+.event-card{
+background:white;
+padding:20px;
+margin-bottom:25px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.event-card h2{
+color:#003366;
+}
+
+.back{
+text-align:center;
+margin-top:40px;
+}
+
+.back a{
+background:#003366;
+color:white;
+padding:10px 20px;
+text-decoration:none;
+border-radius:8px;
+}
