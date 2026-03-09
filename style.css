@@ -1,18 +1,27 @@
-body {
-      background-color: hsl(196, 63%, 81%);
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      color: #07040f;
-     }
-      
-     h1::after {
-        content: "";
-        display: block;
-        width: 80px;
-        height: 3px;
-        background: #003366;
-        margin: 10px auto;
-      }
+body{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background:#a9c7d6;
+    margin:0;
+    padding:0;
+}
+      .container{
+    max-width:900px;
+    margin:auto;
+    padding:40px;
+}
+    h1{
+    text-align:center;
+    color:#003366;
+}
+
+h1::after{
+    content:"";
+    display:block;
+    width:80px;
+    height:3px;
+    background:#003366;
+    margin:10px auto 30px auto;
+}
       
 
 h2 { 
@@ -25,6 +34,30 @@ p {
     text-align: left;
     line-height: 1.5;
   }
+
+blockquote{
+    font-style:italic;
+    font-size:20px;
+    background:#e6f2f7;
+    padding:15px;
+    border-left:5px solid #003366;
+    margin:30px 0;
+}
+
+ul{
+    line-height:1.8;
+}
+
+ul li{
+    margin-bottom:6px;
+}
+
+footer{
+    margin-top:40px;
+    text-align:center;
+    font-size:14px;
+    color:#333;
+}
 
 .daftar-produk {
     display: flex;
@@ -288,3 +321,4 @@ color:#0088cc;
 border-bottom:2px solid #0088cc;
 padding-bottom:3px;
 }
+
